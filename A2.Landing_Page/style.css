@@ -1,0 +1,103 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+ }
+
+
+ li{
+    list-style: none;
+ }
+
+ a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 1rem 5rem;
+    box-sizing: border-box;
+ }
+ 
+ .navlink{
+    display: flex;
+    gap: 0.6rem;
+    font-weight: 600;
+ }
+
+ main{
+    padding-top: 2rem;
+ }
+
+ .zero-section{
+    background-image: url(./assets/Nusa\ Penida.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+ }
+
+ .zero-section h1{
+    font-size: 4rem;
+ }
+
+ .zero-section p{
+    max-width: 50rem;
+ }
+
+ button{
+    background-color: rgb(72, 180, 72);
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 2rem;
+ }
+
+ button:hover{
+    box-shadow: 0 0 0 0.1rem;
+    background-color: rgb(45, 121, 45);
+ }
+
+ .news-card{
+    width: 25rem;
+ }
+
+ .picture{
+    height: 15rem;
+    width: 25rem;
+    margin-bottom: -1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+ }
+
+ svg{
+    height: 1rem;
+ }
+ 
+ .view-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+ }
+
+ .description{
+    text-align: justify;
+}
+
+.first-section{
+    display: grid;
+    grid: 45rem / auto auto auto auto;
+    padding: 5rem;
+    justify-content: center;
+    gap: 2rem;
+}
